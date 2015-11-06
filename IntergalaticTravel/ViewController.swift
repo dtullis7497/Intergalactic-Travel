@@ -10,10 +10,16 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    var isBlueStar:Bool?
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
-
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+  let nextViewController = segue.destinationViewController as! ImageViewController
+        nextViewController.isBlueStar = true
+        nextViewController.title = sender?.currentTitle
+    }
 }
 
