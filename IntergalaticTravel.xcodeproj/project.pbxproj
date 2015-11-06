@@ -47,6 +47,7 @@
 		E73FF2BF1BEBC2D1005358DA /* IntergalaticTravelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IntergalaticTravelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73FF2C31BEBC2D1005358DA /* IntergalaticTravelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntergalaticTravelUITests.swift; sourceTree = "<group>"; };
 		E73FF2C51BEBC2D1005358DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7629D651BED018300AE4E8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Base; path = Base.lproj/ImageViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +101,7 @@
 				E73FF2A31BEBC2D1005358DA /* AppDelegate.swift */,
 				E73FF2A51BEBC2D1005358DA /* ViewController.swift */,
 				E73FF2A71BEBC2D1005358DA /* Main.storyboard */,
+				E7629D641BED018300AE4E8D /* ImageViewController.swift */,
 				E73FF2AA1BEBC2D1005358DA /* Assets.xcassets */,
 				E73FF2AC1BEBC2D1005358DA /* LaunchScreen.storyboard */,
 				E73FF2AF1BEBC2D1005358DA /* Info.plist */,
@@ -309,6 +311,14 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		E7629D641BED018300AE4E8D /* ImageViewController.swift */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7629D651BED018300AE4E8D /* Base */,
+			);
+			name = ImageViewController.swift;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -484,6 +494,7 @@
 				E73FF2CA1BEBC2D1005358DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73FF2CB1BEBC2D1005358DA /* Build configuration list for PBXNativeTarget "IntergalaticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +503,7 @@
 				E73FF2CD1BEBC2D1005358DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E73FF2CE1BEBC2D1005358DA /* Build configuration list for PBXNativeTarget "IntergalaticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +512,7 @@
 				E73FF2D01BEBC2D1005358DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
